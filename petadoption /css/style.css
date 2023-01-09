@@ -1,0 +1,25 @@
+body {
+    background-color: white;
+}
+
+.nav1 {
+    background-color: aqua;
+
+}
+
+.nav1 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.nav1 li {
+    float: left;
+    margin: 10px;
+    color: white;
+}
+
+.nav1 li a:hover {
+    color: blue;
+}
