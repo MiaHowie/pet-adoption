@@ -1,9 +1,14 @@
 body {
     background-color: white;
+    padding: 0px;
+    margin: 0px;
 }
 
 .nav1 {
     background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
 
 }
 
@@ -15,11 +20,38 @@ body {
 }
 
 .nav1 li {
-    float: left;
     margin: 10px;
     color: white;
 }
 
+.nav1 li.active {
+
+    padding: 10px;
+    background-color: white;
+}
+
 .nav1 li a:hover {
+    color: blue;
+}
+
+.nav2 {
+    background-color: white;
+
+}
+
+.nav2 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.nav2 li {
+    float: right;
+    margin: 10px;
+    color: black;
+}
+
+.nav2 li a:hover {
     color: blue;
 }
